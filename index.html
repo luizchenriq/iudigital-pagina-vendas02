@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>IU Digital</title>
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        margin:0;
+        font-family: "verdana";
+      }
+      header {
+        background:linear-gradient(180deg,#070616,#1b1933 44.5%,#1c1c1c);
+      }
+      #header-container{      
+        height: 100vh;
+        width: 100vw;
+            
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+  	  }
+      #logo {
+        max-width:13rem;
+      }
+      header h1, header h2 {
+      	color: #fff;
+      }
+      header h1 {
+        font-size: 2.1rem;
+      }
+      header h2 {
+        font-size: 1.2rem;
+      }
+      section h2 {
+        color: #fff;
+        font-size: 3rem;
+      }
+      video {      
+        width: 100%;
+        height: auto;
+        mix-width: 30rem;
+        max-width: 40rem;
+        border-radius: 0.375rem;
+      }
+      #vantagens {
+      	background-color:#002365/*#1d2d9f*/
+      }
+      #about .content-section-heading h2{
+      	color: #000;
+      }
+      #alex {
+        width: 15rem;
+        border-radius: 50%;
+      }
+      #perguntas-frequentes {
+        background:linear-gradient(180deg,#070616,#1b1933 44.5%,#1c1c1c);
+      }
+      .action-button{
+        font-weight: bolder;
+        font-family: "verdana";
+        font-size: 1.2rem;
+        color: #fff;
+        background-color: #198754;
+      }
+      .text-justify {
+        text-align: justify;
+      }
+      .rounded-circle {
+        border-radius: 50% !important;
+      }
+      .service-icon {
+        background-color: #fff;
+        color: #1D809F;
+        height: 7rem;
+        width: 7rem;
+        display: block;
+        line-height: 7.5rem;
+        font-size: 2.25rem;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+      }
+      .border-rounded {
+        border-radius: 1rem;
+      }
+      .preco {
+        padding: 5rem 0;
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(assets/img/bg.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+      }
+      footer {
+        background:linear-gradient(180deg,#070616,#1b1933 44.5%,#1c1c1c);
+      }
+      footer.footer .social-link {
+        display: block;
+        text-decoration: none;
+        height: 4rem;
+        width: 4rem;
+        line-height: 4.3rem;
+        font-size: 1.5rem;
+        background-color: #1D809F;
+        transition: background-color 0.15s ease-in-out;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+      }
+      footer.footer .social-link:hover {
+        background-color: #155d74;
+        text-decoration: none;
+      }
+      	.accordion{
+      --bs-accordion-btn-focus-box-shadow:0 0 0 0 #fff;
+      }
+
+
+		.accordion-button:not(.collapsed) {
+    		color: #000;
+    		background-color: #fff;
+		}
+		.accordion-item {
+    		color: #000;
+    		background-color: #fff;
+    		border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+		}
+      @media (max-width: 1400px) {
+        #logo {	
+          max-width:10rem;
+        }
+        video {
+          max-width: 35rem;
+        }
+      }
+      @media (min-width: 1400px) {
+          header h1 {
+            font-size: 2.4rem;        
+          }
+          header h2 {
+            font-size: 1.6rem;
+          }
+        video {
+          max-width: 60rem;
+        }
+      }
+      @media (max-width: 576px) {
+        video {
+          max-width: 25rem;
+        }
+        #selo {
+          margin-bottom:3rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="pb-3">
+      <div id="header-container" class="container ">
+        <img id="logo" src="assets/img/logo.png" class="" />
+        <div style="text-align:center">
+        <h1>Aprenda as estratégias de negócio mais usadas na Internet<br />e conquiste seu sucesso no Mercado Digital</h1>
+        <h2 class="mt-4">Um negócio online vai te trazer escala com pouquissímo custo e vai te dar liberdade<br /> para trabalhar de qualquer lugar do mundo, sem patrão ou horário fixo</h2>
+        </div>
+        <div>
+          <video controls>
+            <source src="assets/videos/out.mp4" type="video/mp4">
+          </video>
+        </div>
+        <a class="btn btn-success btn-lg border-rounded action-button text-uppercase" href="https://pay.hotmart.com/C91625973O">Quero viver de Internet</a>
+      </div>
+    </header>
+    <section class="content-section text-white text-center pt-3 pb-5" id="vantagens">
+      <div class="container px-4 px-lg-5 mb-5" >
+          <div class="content-section-heading">
+              <h2 class="mb-5">Vantagens da <img id="logo" src="assets/img/logo.png" /></h2>
+          </div>
+          <div class="row gx-4 gx-lg-5">
+              <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                  <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-globe-alt"></i></span>
+                  <h4><strong>Liberdade</strong></h4>
+                  <p class="text-faded mb-0">Aprenda no seu ritmo, quando e onde quiser</p>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                  <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-event"></i></span>
+                  <h4><strong>365 dias</strong></h4>
+                  <p class="text-faded mb-0">Acesso durante o ano todo 24/7</p>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
+                  <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-directions"></i></span>
+                  <h4><strong>Atualizações</strong></h4>
+                  <p class="text-faded mb-0">Atualizações semanais com novos conteúdos</p>
+              </div>
+          </div>
+          <div class="row gx-4 gx-lg-5 mt-5">
+              <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                  <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-layers"></i></span>
+                  <h4><strong>Diversidade</strong></h4>
+                  <p class="text-faded mb-0">Diversos cursos do Mercado Digital</p>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                  <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-target"></i></span>
+                  <h4><strong>Direto ao ponto</strong></h4>
+                  <p class="text-faded mb-0">Cursos sem enrolação</p>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                  <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-support"></i></span>
+                  <h4><strong>Suporte</strong></h4>
+                  <p class="text-faded mb-0">Tire todas as suas dúvidas</p>
+              </div>
+          </div>                
+       </div>
+       <a class="btn btn-success btn-lg border-rounded action-button text-uppercase" href="https://pay.hotmart.com/C91625973O">Quero viver de Internet</a>
+    </section>  
+    <section class="content-section bg-light pb-5" id="about">
+      <div class="container px-4 px-lg-5 text-center">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+              <div class="content-section-heading">
+                  <h2 class="mt-5 mb-5">Quem será seu professor?</h2>
+              </div>
+              <div class="col-md-4 col-xs-12">
+                  <img id="alex" src="assets/img/alexvaz.jpg" />
+              </div>
+              <div class="col-md-8 col-xs-12">
+                  <p class="lead mt-5 mb-5 text-justify"><span class="bold">Alex Vaz</span> é especialista em Marketing Digital com uma vasta experiência em Negócios Online. Com formação em Direito e influenciado por sua vivência nos EUA, ele adquiriu um conhecimento profundo em Marketing Digital. Desde 2001, ele tem sido um Empreendedor ativo na Internet, desenvolvendo websites e softwares utilizados por muitos famosos da TV: Artistas, Músicos, Apresentadores...<br /><br />Agora, ele está compartilhando seu conhecimento e experiência com você.</p>
+              </div>
+          </div>
+          <a class="btn btn-success btn-lg border-rounded action-button text-uppercase" href="https://pay.hotmart.com/C91625973O">Quero viver de Internet</a>
+      </div>
+    </section>
+    <section class="content-section pt-5 pb-5" id="perguntas-frequentes">
+        <div class="container px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5">Perguntas Frequentes</h2>
+            </div>
+            <div class="row gx-0">
+                <div class="col-lg-12">
+                    <div class="accordion accordion-flush" id="accordionPerguntas">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Como a Escola IU Digital pode me ajudar?</button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionPerguntas">
+                                <div class="accordion-body">
+                                    Nossa Escola foi fundada  com o propósito de disseminar o conhecimento necessário para pessoas  comuns (cansados de trabalhar muito e receber pouco) conseguirem criar seus negócios online, enriquecerem e conquistarem o que há de mais importante na vida: a liberdade de escolhas.<br />
+                                    Escolher com o que você quer trabalhar, de onde você quer trabalhar, como, em quais horários. E, o melhor de tudo: ser muito bem remunerado por isso.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">Vai funcionar para mim?</button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionPerguntas">
+                                <div class="accordion-body">
+                                    Claro que sim, você só tem que aplicar os ensinamentos contidos nas aulas, é praticamente impossível você não ter resultados financeiros.<br />
+                                    Os professores da IUDIGITAL são praticantes do mercado, não somente teóricos. Ou seja, tudo que você vai aprender foi testado e validado em diversos nichos e vão funcionar para você
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">Existem oportunidades de crescimento?</button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionPerguntas">
+                                <div class="accordion-body">
+                                    O marketing digital oferece uma ampla gama de oportunidades de crescimento e progressão na carreira. Com a demanda crescente por profissionais qualificados em marketing digital, as perspectivas de crescimento são promissoras e podem levar a posições de liderança e altos salários.                                        
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">Posso experimentar e cancelar se não gostar?</button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionPerguntas">
+                                <div class="accordion-body">
+                                    Sim, você tem 7 dias para experimentar qualquer curso da nossa escola  e cancelar sem necessidade de se justificar. Seu investimento será devolvido.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">Como terei acesso ao curso?</button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionPerguntas">
+                                <div class="accordion-body">
+                                    Caso você faça sua compra pelo cartão de crédito ou por Pix, em alguns instantes você já receberá um e-mail com acesso ao curso. Caso você pague via boleto bancário, seu acesso será disponibilizado entre 24 e 48 horas, também por e-mail.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="preco">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row">
+                <div class="col-md-7 mr-5 col-sm-12 col-12">                        
+                    <h2 class="mb-5" style="font-size:3rem"><span style="white-space: nowrap">Garantia de 7 dias</span></h2>
+                    <p style="font-size:1.25rem " class="mt-3 text-justify">Se em até 7 dias após a data da compra você achar que a IU Digital não é para você ou não quiser continuar por qualquer motivo, devolveremos o seu dinheiro.</p>
+                    <img id="selo" src="assets/img/selo.png" />
+                </div>
+                <div class="col-md-5 ml-5 col-sm-12 col-12">
+                    <h2 class="mx-auto mb-5">
+                        <span style="font-size:2rem">De <del>R$199,90</del> por mês</span><br /><br />Por apenas R$59,90<br />por mês
+                    </h2>
+                    <a class="btn btn-success btn-lg border-rounded action-button text-uppercase" href="https://pay.hotmart.com/C91625973O">Quero viver de Internet</a>
+                </div>
+            </div>          
+        </div>
+    </section>
+    <footer class="footer text-center pt-5 pb-5" style="">
+        <div class="container px-4 px-lg-5">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/alexvazoficial/" target="_blank"><i class="icon-social-instagram"></i></a>
+                </li>
+            </ul>
+            <p class="small mb-0 text-light">Copyright &copy; IU Digital 2024</p>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
